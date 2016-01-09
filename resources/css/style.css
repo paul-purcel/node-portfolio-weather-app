@@ -1,0 +1,11 @@
+html, body {
+	background-color: #E8E8E8;
+	margin-top: 10px;
+}
+
+.white {
+	background-color: #FFF;
+	-webkit-box-shadow: 1px 1px 2px 1px #DBDBDB;
+	box-shadow: 1px 1px 2px 1px #DBDBDB;
+	margin-bottom: 5px;
+}

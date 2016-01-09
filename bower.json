@@ -1,0 +1,19 @@
+{
+  "name": "node-portfolio-app",
+  "description": "Portfolio sample app",
+  "main": "app.js",
+  "authors": [
+    "Paul P <paul@paul-resume.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "http://www.paul-resume.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
