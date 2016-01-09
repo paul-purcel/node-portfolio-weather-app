@@ -5,13 +5,14 @@
 var express = require('express');
 var app = express();
 var body = require('body-parser');
-var logger = require('morgan');
 var weatherApi = require(__dirname + '/routes/weather.js');
 
 /**
  * Add the necessary middleware
  */
-app.use(logger('combined', {}));
+if(process.env.NODE_ENV == undefined || process.env.NODE_ENV !== "production"){
+	app.use(require('morgan')('combined', {}));
+}
 app.use(body.urlencoded({extended: false}));
 app.use(body.json());
 app.use(express.static(__dirname + '/public'));
