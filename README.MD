@@ -9,4 +9,4 @@ bower install
 ```
 
 ### This app also provides an API
-##### Make your API calls to /weather/<city_name> or <city_name, country>
+##### Make your API calls to /weather/{city_name} or {city_name, country}
