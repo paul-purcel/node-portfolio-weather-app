@@ -35,7 +35,7 @@
 				$.each(this.forecast, function(){
 					if(count <= 2){
 						$('<div />').addClass('col-sm-3 col-md-3 col-lg-3')
-							.html('<p>'+this.day+'</p><h3>'+this.high+' / '+this.low+'&deg;C </h3><p>'+this.skytextday+'</p>').
+							.html('<p>'+this.day+'</p><h3>'+this.high+' / '+this.low+'&deg;C </h3><p>'+this.skytextday+'</p>')
 							.appendTo(item);
 					}
 					count++;
